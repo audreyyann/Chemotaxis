@@ -43,10 +43,8 @@
    void move() {
      if (x > myX) {
        myX = myX + (int)(Math.random()*7)-1;
-       //-1, 0, 1, 2, 3, 4, 5
      } else {
        myX = myX + (int)(Math.random()*7)-5;
-       //-5, -4, -3, -2, -1, 0, 1
      }
      if (y > myY) {
        myY = myY + (int)(Math.random()*7)-1;
